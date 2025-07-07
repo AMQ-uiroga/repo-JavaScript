@@ -22,7 +22,7 @@ function balance() {
 }
 
 function addRegistro(tipo) {
-  let registro = {};
+  const registro = {};
   let categoria = prompt("Ingrese Categoria:");
   let fecha = prompt("Ingrese fecha:");
   let monto = prompt("Ingrese monto:");
